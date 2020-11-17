@@ -1,0 +1,57 @@
+@import "../../sass/config/variables.scss";
+
+.header {
+  background: $blue1;
+  padding: 15px 0;
+
+  h1 {
+    margin: 0 50px 0 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1em;
+    color: $black;
+
+    a {
+      text-decoration: none;
+      color: $blue3;
+    }
+  }
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    li {
+      margin: 0 15px 0 0;
+      padding: 0;
+      list-style-type: none;
+
+      &:last-of-type {
+        margin: 0;
+      }
+
+      a {
+        display: block;
+        padding: 5px;
+        font-size: 14px;
+        text-decoration: none;
+        color: $black;
+      }
+    }
+  }
+}
+
+
