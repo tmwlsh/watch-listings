@@ -6,18 +6,18 @@ import SEO from "../components/seo"
 import Container from "../components/container"
 
 
-const WatchTemplate = (props, {pageContext}) => {
+const CompTemplate = (props, {pageContext}) => {
 
-  const watch = props.pageContext.watch;
+  const comp = props.pageContext.comp;
 
   return (
     <Layout>
-      <SEO title={`${watch.make} ${watch.model}`} />
+      <SEO title={`${comp.prize}`} />
       <Container size="large">
-        <h1>{`${watch.make} ${watch.model}`}</h1>
+        <h1>{`${comp.prize}`}</h1>
       </Container>
     </Layout>
   )
 }
 
-export default WatchTemplate
+export default CompTemplate

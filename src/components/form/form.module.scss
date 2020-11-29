@@ -1,0 +1,43 @@
+@import "../../sass/config/variables.scss";
+
+.form {
+  padding: 100px 0;
+  text-align: center;
+
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: 1px solid;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: $blue3;
+
+    &::placeholder {
+      color: rgba($blue3, 0.5);
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  input[type="submit"] {
+    border: none;
+    margin: 0 0 0 auto;
+    padding: 20px 50px;
+    outline: none;
+    color: $blue3;
+    font-size: 18px;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: $blue1;
+  }
+}
+
+

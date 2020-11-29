@@ -2,12 +2,17 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import FeaturedComp from "../components/featuredComp"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Index Page</h1>
-  </Layout>
-)
+import comps from "../data/competitions.json"
+
+const IndexPage = () => {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <FeaturedComp comp={comps[0]} />
+    </Layout>
+  )
+}
 
 export default IndexPage

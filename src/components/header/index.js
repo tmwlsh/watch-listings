@@ -10,23 +10,20 @@ const Header = () => {
       <Container size="large">
         <div className={styles.headerInner}>
           <div className={styles.headerLeft}>
-            <h1><Link to="/">WatchTrader</Link></h1>
+            <h1><Link to="/">CompWorld</Link></h1>
             <nav>
               <ul>
-                <li><Link to="/listings">Used watches</Link></li>
-                <li><Link to="/listings">New watches</Link></li>
-                <li><Link to="/listings">Sell your watch</Link></li>
-                <li><Link to="/listings">Value your watch</Link></li>
-                <li><Link to="/listings">Watch reviews</Link></li>
-                <li><Link to="/listings">Insurance</Link></li>
+                <li><Link to="/competitions">Competitions</Link></li>
+                <li><Link to="/competitions">Winners</Link></li>
+                <li><Link to="/competitions">About</Link></li>
               </ul>
             </nav>
           </div>
           <div className={styles.headerRight}>
             <nav>
               <ul>
-                <li><Link to="/listings">Sign in</Link></li>
-                <li><Link to="/listings">Sign up</Link></li>
+                <li><Link to="/sign-in">Sign in</Link></li>
+                <li><Link to="/sign-up">Sign up</Link></li>
               </ul>
             </nav>
           </div>

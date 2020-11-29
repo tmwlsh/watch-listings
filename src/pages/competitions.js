@@ -3,23 +3,23 @@ import { Link } from "gatsby"
 
 // components
 import Layout from "../components/layout"
-import WatchList from "../components/watchList"
+import CompList from "../components/compList"
 import SEO from "../components/seo"
 import Container from "../components/container"
 
 // data
-import watches from "../data/watches.json"
+import competitions from "../data/competitions.json"
 
-const ListingsPage = () => {
+const CompetitionsPage = () => {
 
   return (
     <Layout>
-      <SEO title="Listings" />
+      <SEO title="Competitions" />
       <Container size="large">
-        <WatchList watchData={watches} />
+        <CompList compData={competitions} />
       </Container>
     </Layout>
   )
 }
 
-export default ListingsPage
+export default CompetitionsPage

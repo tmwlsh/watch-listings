@@ -1,10 +1,9 @@
 @import "../../sass/config/variables.scss";
 
-.watch-list {
+.comp-list {
   margin: 0;
-  padding: 50px 0;
   display: flex;
+  padding: 50px 0;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
 }

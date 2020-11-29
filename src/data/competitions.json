@@ -1,0 +1,29 @@
+[
+  {
+    "id": "0001",
+    "prize": "Lamborghini Urus",
+    "ticketPrice": 500,
+    "retailPrice": 177450,
+    "cashAlternative": 125000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis lacus id lectus eleifend, ut blandit diam sollicitudin. Donec eget mattis odio, vel porttitor libero. Proin sed mollis ante. Pellentesque non tempus lacus. Sed eu condimentum mauris. Suspendisse nunc nulla, luctus id maximus sed",
+    "image": "porsche.jpg"
+  },
+  {
+    "id": "0002",
+    "prize": "Firarri Enzo",
+    "ticketPrice": 450,
+    "retailPrice": 156750,
+    "cashAlternative": 105000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis lacus id lectus eleifend, ut blandit diam sollicitudin. Donec eget mattis odio, vel porttitor libero. Proin sed mollis ante. Pellentesque non tempus lacus. Sed eu condimentum mauris. Suspendisse nunc nulla, luctus id maximus sed",
+    "image": "ferarri.jpg"
+  },
+  {
+    "id": "0003",
+    "prize": "Porsche Carerra",
+    "ticketPrice": 300,
+    "retailPrice": 120000,
+    "cashAlternative": 95000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis lacus id lectus eleifend, ut blandit diam sollicitudin. Donec eget mattis odio, vel porttitor libero. Proin sed mollis ante. Pellentesque non tempus lacus. Sed eu condimentum mauris. Suspendisse nunc nulla, luctus id maximus sed",
+    "image": "lambo.jpg"
+  }
+]

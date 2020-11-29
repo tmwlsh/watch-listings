@@ -1,17 +1,17 @@
 const path = require(`path`);
-const watches = require('./src/data/watches.json');
+const comps = require('./src/data/competitions.json');
 
 
 exports.createPages = ({ actions }) => {
   const { createPage } = actions
-  const watchTemplate = path.resolve(`./src/templates/watch.js`)
+  const compTemplate = path.resolve(`./src/templates/competition.js`)
 
-  return watches.map(watch => {
+  return comps.map(comp => {
     return createPage({
-      path: `listings/${watch.id}-${watch.make}-${watch.model}`.replace(/\s+/g, '-').toLowerCase(),
-      component: watchTemplate,
+      path: `competitions/${comp.id}-${comp.prize}`.replace(/\s+/g, '-').toLowerCase(),
+      component: compTemplate,
       context: {
-        watch: watch
+        comp: comp
       }
     })
   });
